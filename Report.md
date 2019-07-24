@@ -38,3 +38,7 @@ Episode 487	Average Score: 13.03
 Environment solved in 387 episodes!	Average Score: 13.03
 
 ![Trainnig Progress](/images/trainigProgress.png)
+
+Fututre development: 
+1. Use other algorithms such as Actor-Critic
+2. Play with hyper parameters to reach faster convergance
