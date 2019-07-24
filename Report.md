@@ -35,3 +35,8 @@ Episode 300	Average Score: 8.34
 Episode 400	Average Score: 10.43
 Episode 487	Average Score: 13.03
 Environment solved in 387 episodes!	Average Score: 13.03
+
+![Trainig Progress](/images/trainigProgress.png)
+Format: ![Trainig Progress](url)
+
+
