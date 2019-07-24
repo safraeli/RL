@@ -1,3 +1,4 @@
+
 # Report of Navigation Project Submission
 
 The submission implementnts a Deep Q Network Algorithm where the agent hold a deep NN of the format:
@@ -9,11 +10,11 @@ The submission implementnts a Deep Q Network Algorithm where the agent hold a de
 * fc1_units=64, fc2_units=64
 
 There are two identical networks of that size. Namely, Local and Target. 
-The networks are initilized identically.  A Soft Update mechanizm transfers the information from the Local network to the Target network 
+The networks are initialized identically.  A Soft Update mechanism transfers the information from the Local network to the Target network 
 The network optimizer is ADAM
 
-The netwroks are being updated using two (external) functions:
-1. agent.step(state, action, reward, next_state, done). The step function also triggers the learn function (every UPDATE_EVERY stpes) which perfroms the soft update of the target network.
+The networks are being updated using two (external) functions:
+1. agent.step(state, action, reward, next_state, done). The step function also triggers the learn function (every UPDATE_EVERY steps) which performs the soft update of the target network.
 
 2. agent.act(state, eps) The act function also triggers the train function for the local network
 
@@ -36,7 +37,4 @@ Episode 400	Average Score: 10.43
 Episode 487	Average Score: 13.03
 Environment solved in 387 episodes!	Average Score: 13.03
 
-![Trainig Progress](/images/trainigProgress.png)
-Format: ![Trainig Progress](url)
-
-
+![Trainnig Progress](/images/trainigProgress.png)
