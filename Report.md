@@ -1,6 +1,11 @@
 
 # Report of Navigation Project Submission
 
+Instruction to install environment: 
+https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation#getting-started
+Setup Python environment:
+https://github.com/udacity/deep-reinforcement-learning#dependencies
+
 The submission implementnts a Deep Q Network Algorithm where the agent hold a deep NN of the format:
 * fc1 = nn.Linear(state_size, fc1_units)
 * fc2 = nn.Linear(fc1_units, fc2_units)
